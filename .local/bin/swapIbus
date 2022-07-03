@@ -1,0 +1,3 @@
+#!/bin/sh
+
+[ `ibus engine` = Bamboo ] && ibus engine BambooUs || ibus engine Bamboo

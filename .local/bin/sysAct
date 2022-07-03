@@ -1,0 +1,8 @@
+#!/bin/sh
+
+case "$(printf "lock\nshutdown\nreboot\n" | dmenu -p 'Action: ')" in
+	'lock') slock ;;
+	'shutdown') sudo poweroff ;;
+	'reboot') sudo reboot ;;
+	*) exit 1 ;;
+esac
