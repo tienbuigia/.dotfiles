@@ -1,0 +1,8 @@
+alias vim='nvim'
+alias v='nvim'
+
+alias suck='make && sudo make install && make clean'
+
+alias yt='yt-dlp --embed-metadata -i'
+
+alias update50='pip install --upgrade cs50 check50 submit50 style50'
