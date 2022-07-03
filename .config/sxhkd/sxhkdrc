@@ -1,0 +1,26 @@
+#####################
+### Tien dep trai ###
+#####################
+
+###---------- open apps ----------###
+super + w
+	brave
+
+###---------- media ----------###
+super + {minus, equal}
+	amixer -q sset Master {5%-, 5%+}
+super + BackSpace; {minus, equal}
+	pactl set-default-sink {alsa_output.usb-Aisa_Expert_Wireless_Audio-03.analog-stereo, alsa_output.pci-0000_01_00.1.hdmi-stereo-extra5}
+
+super + shift + {BackSpace, minus, equal}
+	playerctl {play-pause, previous, next}
+XF86AudioPlay
+	playerctl play-pause
+
+###---------- system commands ----------###
+super + shift + x
+	sysAct
+ctrl + alt + l
+	slock
+ctrl + shift + space
+	swapIbus
