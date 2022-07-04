@@ -7,11 +7,15 @@ super + w
 	brave
 
 ###---------- media ----------###
+# volume
 super + {minus, equal}
 	amixer -q sset Master {5%-, 5%+}
+
+# set output for desktop
 super + BackSpace; {minus, equal}
 	pactl set-default-sink {alsa_output.usb-Aisa_Expert_Wireless_Audio-03.analog-stereo, alsa_output.pci-0000_01_00.1.hdmi-stereo-extra5}
 
+# media control
 super + shift + {BackSpace, minus, equal}
 	playerctl {play-pause, previous, next}
 XF86AudioPlay
