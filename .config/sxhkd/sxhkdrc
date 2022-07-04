@@ -10,6 +10,8 @@ super + w
 # volume
 super + {minus, equal}
 	amixer -q sset Master {5%-, 5%+}
+XF86Audio{Mute,LowerVolume,RaiseVolume}
+	pamixer {-t,-d 5,-i 5}
 
 # set output for desktop
 super + BackSpace; {minus, equal}
