@@ -55,3 +55,8 @@ xautolock -time 10 -locker slock &
 caffeine & # drink coffee
 # dwm
 xset r rate 300 50; exec dwm
+
+# # hyprland & wayland
+# export SDL_VIDEODRIVER=wayland
+# export MOZ_ENABLE_WAYLAND=1
+# xset r rate 300 50; exec Hyprland
