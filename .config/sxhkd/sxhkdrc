@@ -32,3 +32,5 @@ ctrl + shift + space
 	swapIbus
 XF86Display
 	xrandr --output HDMI1 --auto --same-as eDP1
+XF86MonBrightness{Down,Up}
+	brillo -q -u 150000 {-U 5,-A 5}
