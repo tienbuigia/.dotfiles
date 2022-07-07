@@ -39,7 +39,7 @@ pipewire-pulse &
 wireplumber &
 # display
 redshift &
-picom &
+picom --experimental-backend &
 nitrogen --restore &
 # keybinds
 sxhkd &
