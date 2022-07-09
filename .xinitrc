@@ -42,7 +42,7 @@ redshift &
 picom -b &
 nitrogen --restore &
 # keybinds
-sxhkd &
+sxhkd -b &
 # status bar
 slstatus &
 # ibus
