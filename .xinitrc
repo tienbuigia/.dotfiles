@@ -39,7 +39,7 @@ pipewire-pulse &
 wireplumber &
 # display
 redshift &
-picom -b --animations --animation-for-open-window zoom --animation-stiffness 120 --animation-dampening 14 &
+picom -b --animations --animation-for-open-window zoom --animation-stiffness 210 --animation-dampening 20 &
 nitrogen --restore &
 # keybinds
 sxhkd &
