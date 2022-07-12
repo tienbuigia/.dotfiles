@@ -1,3 +1,8 @@
+## launch app ##
+riverctl map normal Alt P spawn fuzzel
+riverctl map normal Alt+Shift Return spawn alacritty
+################
+
 riverctl map normal Alt+Shift C close
 riverctl map normal Alt+Shift Q exit
 
