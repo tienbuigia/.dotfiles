@@ -38,7 +38,7 @@ set -o vi
 source /usr/share/doc/pkgfile/command-not-found.bash
 
 # autorun when open terminal
-figlet Hello, world!
+figlet Nhung, anh yeu em!
 
 # blesh ending
 [[ ${BLE_VERSION-} ]] && ble-attach
